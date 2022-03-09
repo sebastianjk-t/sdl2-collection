@@ -7,7 +7,7 @@ A collection of the various mini-projects I've created with C++ and the SDL2 gra
 Individual programs can be compiled and run with the below terminal command, replacing {file} with the file name (excluding the extension).
 
 ```bash
-make File={file}
+make FILE={file}
 ```
 
 The below command can be used to compile all of the programs, creating executables for each.
