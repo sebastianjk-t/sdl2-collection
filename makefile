@@ -15,4 +15,4 @@ all: gol.cpp slide.cpp snek.cpp sorts.cpp waterfall.cpp zelda.cpp
 	@$(CXX) snek.cpp -o snek $(FW) $(CXXFLAGS)
 	@$(CXX) sorts.cpp -o sorts $(FW) $(CXXFLAGS)
 	@$(CXX) waterfall.cpp -o waterfall $(FW) $(CXXFLAGS)
-	@$(CXX) zelda.cpp -o zelda $(FW) $(CXXFLAGS)
+	@$(CXX) lelda.cpp -o lelda $(FW) $(CXXFLAGS)

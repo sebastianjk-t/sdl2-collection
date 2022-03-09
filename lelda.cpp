@@ -394,7 +394,7 @@ int main()
 	addEnemies(enemies, map[screen[0]][screen[1]], pos, 2);
 
 	SDL_Init(SDL_INIT_VIDEO);
-	SDL_Renderer* renderer = SDL_CreateRenderer(SDL_CreateWindow("zelda", SDL_WINDOWPOS_CENTERED, SDL_WINDOWPOS_CENTERED, size[0] * scale, size[1] * scale, 0), -1, 0);;
+	SDL_Renderer* renderer = SDL_CreateRenderer(SDL_CreateWindow("lelda", SDL_WINDOWPOS_CENTERED, SDL_WINDOWPOS_CENTERED, size[0] * scale, size[1] * scale, 0), -1, 0);;
 	SDL_Event event;
 
 	int maxHealth = 8, health = 4;
